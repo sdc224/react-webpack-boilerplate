@@ -16,14 +16,12 @@
 		"typeRoots": ["node_modules/@types", "src/@types"]
 	},
 	"exclude": [
-		"node_modules",
 		"build",
 		"scripts",
 		"configs",
 		"acceptance-tests",
 		"webpack",
 		"jest",
-		"src/setupTests.ts",
 		"./node_modules/**/*"
 	],
 	"include": ["./src/**/*", "@types"]
