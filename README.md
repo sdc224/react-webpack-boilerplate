@@ -10,6 +10,11 @@ A boilerplate for setting up ReactJS with Typescript, with latest dependencies.
 [![Github Tag][github-tag-image]][github-tag-url]
 [![CodeFactor][codefactor-image]][codefactor-url]
 
+## Branches
+
+1. master - Have the most useful tools
+2. basic - Very basic setup, contains only React and Webpack, useful for developers who like experiments
+
 [github-actions-status]: https://github.com/sdc224/react-webpack-boilerplate/workflows/GitHub%20Actions/badge.svg
 [github-actions-url]: https://github.com/sdc224/react-webpack-boilerplate/actions
 [david-image]: https://img.shields.io/david/sdc224/react-webpack-boilerplate.svg
