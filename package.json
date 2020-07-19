@@ -1,7 +1,7 @@
 {
-	"name": "chakra-ui-boilerplate",
+	"name": "react-webpack-boilerplate",
 	"version": "1.0.0",
-	"description": "Chakra UI Boilerplate",
+	"description": "React Webpack Boilerplate",
 	"author": {
 		"name": "Sourodeep Chatterjee",
 		"email": "sourodeep224@outlook.com",
