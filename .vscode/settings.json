@@ -1,4 +1,38 @@
 {
+	"files.associations": {
+		".babelrc": "jsonc",
+		".eslintrc": "jsonc",
+		".prettierrc": "jsonc",
+
+		".stylelintrc": "json",
+
+		".dockerignore": "ignore",
+		".eslintignore": "ignore"
+	},
+
+	"javascript.validate.enable": false,
+	"javascript.format.enable": false,
+	"typescript.validate.enable": true,
 	"typescript.format.enable": true,
-	"typescript.validate.enable": true
+
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		".eslintcache": true
+	},
+
+	"search.exclude": {
+		".git": true,
+		".eslintcache": true,
+		"build": true,
+		"bower_components": true,
+		"node_modules": true,
+		"npm-debug.log.*": true,
+		"__test__/__snapshots__": true,
+		"yarn.lock": true,
+		"*.{css,sass,scss}.d.ts": true
+	}
 }
