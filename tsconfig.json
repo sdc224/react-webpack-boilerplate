@@ -3,6 +3,7 @@
 		"outDir": "build",
 		"target": "es6",
 		"module": "esnext",
+		"lib": ["DOM", "ESNext"],
 		"moduleResolution": "node",
 		"noResolve": false,
 		"noImplicitAny": false,
@@ -11,6 +12,7 @@
 		"jsx": "react",
 		"allowSyntheticDefaultImports": true,
 		"keyofStringsOnly": true,
+		"esModuleInterop": true,
 		"typeRoots": ["node_modules/@types", "src/@types"]
 	},
 	"exclude": [

@@ -7,6 +7,10 @@ module.exports = {
 			jsx: true // Allows for the parsing of JSX
 		}
 	},
+	env: {
+		browser: true,
+		jest: true // Because eslint does not know test framework codes.
+	},
 	settings: {
 		react: {
 			version: "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
