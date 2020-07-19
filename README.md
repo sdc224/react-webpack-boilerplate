@@ -1,6 +1,6 @@
-# Chakra UI Boilerplate
+# React Webpack Boilerplate
 
-A boilerplate for setting up Chakra UI, with latest dependencies.
+A boilerplate for setting up ReactJS with Typescript, with latest dependencies.
 
 ## Status
 
