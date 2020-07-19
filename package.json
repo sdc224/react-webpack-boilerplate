@@ -14,9 +14,10 @@
 		"clean": "rimraf build",
 		"clean:all": "yarn clean && rimraf node_modules yarn.lock",
 		"dev": "cross-env NODE_ENV=development TS_NODE_PROJECT=tsconfig.tools.json webpack-dev-server --config configs/webpack/webpack.dev.ts",
-		"lint": "cross-env NODE_ENV=development eslint . --cache --ext .js,.ts,.tsx",
+		"lint": "cross-env eslint . --cache --ext .js,.ts,.tsx",
 		"lint:fix": "yarn --silent lint --fix",
 		"postlint:fix": "cross-env prettier --ignore-path .eslintignore --write '**/*.{js,ts,tsx,json,html,css,less,scss,yml}'",
+		"postinstall": "node internals/scripts/init",
 		"test": "jest"
 	},
 	"dependencies": {
