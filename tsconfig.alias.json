@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@app/*": ["./*", "./"],
+			"@src/*": ["./src/*", "./src/"],
+			"@types/*": ["./src/@types/*", "./src/@types/"],
+			"@assets/*": ["./src/assets/*", "./src/assets/"],
+			"@images/*": ["./src/assets/images/*", "./src/assets/images/"],
+			"@theme/*": ["./src/assets/theme/*", "./src/assets/theme/"],
+			"@components/*": ["./src/components/*", "./src/components/"],
+			"@containers/*": ["./src/containers/*", "./src/containers/"],
+			"@views/*": ["./src/views/*", "./src/views/"],
+			"@layouts/*": ["./src/layouts/*", "./src/layouts/"],
+			"@routes/*": ["./src/routes/*", "./src/routes/"],
+			"@actions/*": ["./src/actions/*", "./src/actions/"],
+			"@reducers/*": ["./src/reducers/*", "./src/reducers/"],
+			"@sagas/*": ["./src/sagas/*", "./src/sagas/"],
+			"@store/*": ["./src/store/*", "./src/store/"],
+			"@reduxTypes/*": ["./src/reduxTypes/*", "./src/reduxTypes/"],
+			"@utils/*": ["./src/utils/*", "./src/utils/"]
+		}
+	}
+}
