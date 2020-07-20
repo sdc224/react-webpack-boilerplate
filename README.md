@@ -9,6 +9,7 @@ A boilerplate for setting up ReactJS with Typescript, with latest dependencies.
 [![DevDependency Status][david-dev-image]][david-dev-url]
 [![Github Tag][github-tag-image]][github-tag-url]
 [![CodeFactor][codefactor-image]][codefactor-url]
+[![Netlify Status][netlify-image]][netlify-url]
 
 ## Branches
 
@@ -25,3 +26,5 @@ A boilerplate for setting up ReactJS with Typescript, with latest dependencies.
 [github-tag-url]: https://github.com/sdc224/react-webpack-boilerplate/releases/latest
 [codefactor-image]: https://www.codefactor.io/repository/github/sdc224/react-webpack-boilerplate/badge
 [codefactor-url]: https://www.codefactor.io/repository/github/sdc224/react-webpack-boilerplate
+[netlify-image]: https://api.netlify.com/api/v1/badges/3aff7b50-28af-4c50-a4b7-a68e72d5ae50/deploy-status
+[netlify-url]: https://app.netlify.com/sites/react-ts-webpack-boilerplate/deploys
