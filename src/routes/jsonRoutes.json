@@ -1,0 +1,7 @@
+{
+	"WELCOME": "/",
+	"DASHBOARD": "/dashboard",
+	"SIGNIN": "/sign-in",
+	"SETTINGS": "/settings",
+	"NOTFOUND": "/not-found"
+}
