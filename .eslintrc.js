@@ -14,6 +14,16 @@ module.exports = {
 	settings: {
 		react: {
 			version: "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
+		},
+		"import/resolver": {
+			// See https://github.com/benmosher/eslint-plugin-import/issues/1396#issuecomment-575727774 for line below
+			node: {},
+			webpack: {
+				config: require.resolve("./configs/webpack/webpack.alias.ts")
+			}
+		},
+		"import/parsers": {
+			"@typescript-eslint/parser": [".ts", ".tsx"]
 		}
 	},
 	extends: [
@@ -25,5 +35,6 @@ module.exports = {
 	rules: {
 		// Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
 		// e.g. "@typescript-eslint/explicit-function-return-type": "off",
+		"@typescript-eslint/explicit-module-boundary-types": "off"
 	}
 };
