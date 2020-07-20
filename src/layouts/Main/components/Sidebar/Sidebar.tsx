@@ -1,9 +1,11 @@
 import React from "react";
 import clsx from "clsx";
-import { makeStyles } from "@material-ui/styles";
-import { Divider, Drawer, Theme } from "@material-ui/core";
-import DashboardIcon from "@material-ui/icons/Dashboard";
-import SettingsIcon from "@material-ui/icons/Settings";
+import { Divider, Drawer } from "@material-ui/core";
+import { makeStyles, Theme } from "@material-ui/core/styles";
+import {
+	Dashboard as DashboardIcon,
+	Settings as SettingsIcon
+} from "@material-ui/icons";
 
 import { Profile, SidebarNav } from "./components";
 

@@ -18,9 +18,29 @@ module.exports = function (api) {
 		]
 	];
 	const plugins = [
+		[
+			"babel-plugin-import",
+			{
+				libraryName: "@material-ui/core",
+				// Use "'libraryDirectory': ''," if your bundler does not support ES modules
+				libraryDirectory: "esm",
+				camel2DashComponentName: false
+			},
+			"core"
+		],
+		[
+			"babel-plugin-import",
+			{
+				libraryName: "@material-ui/icons",
+				// Use "'libraryDirectory': ''," if your bundler does not support ES modules
+				libraryDirectory: "esm",
+				camel2DashComponentName: false
+			},
+			"icons"
+		],
 		["@babel/plugin-proposal-decorators", { decoratorsBeforeExport: true }],
 		["@babel/plugin-proposal-class-properties"],
-		["@babel/transform-runtime"]
+		["@babel/plugin-transform-runtime"]
 	];
 	return {
 		presets,

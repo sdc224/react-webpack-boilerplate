@@ -1,9 +1,10 @@
 /* eslint-disable react/display-name */
-import React, { forwardRef } from "react";
+import React from "react";
 import { NavLink as RouterLink, NavLinkProps } from "react-router-dom";
 import clsx from "clsx";
-import { makeStyles } from "@material-ui/styles";
-import { List, ListItem, Button, colors, Theme } from "@material-ui/core";
+import { List, ListItem, Button } from "@material-ui/core";
+import * as colors from "@material-ui/core/colors";
+import { Theme, makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme: Theme) => ({
 	root: {},
@@ -40,7 +41,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 	}
 }));
 
-const CustomRouterLink = forwardRef<HTMLDivElement, NavLinkProps>(
+const CustomRouterLink = React.forwardRef<HTMLDivElement, NavLinkProps>(
 	(props, ref) => (
 		<div ref={ref} style={{ flexGrow: 1 }}>
 			<RouterLink {...props} />

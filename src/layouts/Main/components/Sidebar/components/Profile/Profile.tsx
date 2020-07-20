@@ -1,8 +1,8 @@
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import clsx from "clsx";
-import { makeStyles } from "@material-ui/styles";
-import { Avatar, Typography, Theme } from "@material-ui/core";
+import { Avatar, Typography } from "@material-ui/core";
+import { makeStyles, Theme } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme: Theme) => ({
 	root: {

@@ -5,7 +5,7 @@ import { ConnectedRouter } from "connected-react-router";
 // import { hot } from "react-hot-loader/root";
 import { History } from "history";
 import Loading from "@components/Loading";
-import { ThemeProvider, createMuiTheme } from "@material-ui/core";
+import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 // import theme from "@theme/";
 // import { ConfirmationServiceProvider } from "./ConfirmationService";
 
