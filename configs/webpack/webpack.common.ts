@@ -13,6 +13,7 @@ const config: webpack.Configuration = webpackMerge(aliasConfig, {
 	target: "web",
 	output: {
 		filename: "[name].js",
+		// chunkFilename: "chunk-[name].[contenthash].js",
 		path: path.join(paths.build, paths.publicPath),
 		publicPath: paths.publicPath
 	},
@@ -25,7 +26,12 @@ const config: webpack.Configuration = webpackMerge(aliasConfig, {
 			{
 				test: /\.tsx?$/,
 				use: [
-					"babel-loader",
+					{
+						loader: "babel-loader",
+						query: {
+							cacheDirectory: true
+						}
+					},
 					{
 						loader: "ts-loader",
 						options: {
@@ -34,6 +40,10 @@ const config: webpack.Configuration = webpackMerge(aliasConfig, {
 					}
 				],
 				exclude: paths.nodeModules
+			},
+			{
+				test: /\.css$/,
+				loader: ["style-loader", "css-loader"]
 			}
 		]
 	},
@@ -44,6 +54,16 @@ const config: webpack.Configuration = webpackMerge(aliasConfig, {
 		new ForkTsCheckerWebpackPlugin()
 	],
 	optimization: {
+		// splitChunks: {
+		// 	cacheGroups: {
+		// 		vendors: {
+		// 			test: /[\\/]node_modules[\\/]/,
+		// 			name: "vendors",
+		// 			chunks: "all"
+		// 		}
+		// 	}
+		// },
+		concatenateModules: true,
 		removeAvailableModules: true,
 		removeEmptyChunks: true
 	},
