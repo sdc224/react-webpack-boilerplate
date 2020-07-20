@@ -16,17 +16,18 @@
 		"esModuleInterop": true,
 		"importsNotUsedAsValues": "preserve",
 		"resolveJsonModule": true,
+		"skipLibCheck": true,
 		"typeRoots": ["node_modules/@types", "src/@types"]
 	},
 	"exclude": [
+		"node_modules",
 		"build",
 		"scripts",
 		"configs",
 		"acceptance-tests",
 		"webpack",
 		"jest",
-		"internals",
-		"./node_modules/**/*"
+		"internals"
 	],
 	"include": ["./src/**/*", "@types"]
 }
