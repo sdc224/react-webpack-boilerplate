@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 // import { AppContainer as ReactHotAppContainer } from "react-hot-loader";
 import { configureStore, history } from "@store/configureStore";
 import Root from "./containers/Root";
-// import "@css/app.global.css";
+import "./index.css";
 
 const store = configureStore();
 
