@@ -1,13 +1,22 @@
 import React, { useState } from "react";
 import { Link as RouterLink } from "react-router-dom";
 import clsx from "clsx";
-import { AppBar, Toolbar, Badge, Hidden, IconButton } from "@material-ui/core";
+import {
+	AppBar,
+	Toolbar,
+	Badge,
+	Hidden,
+	IconButton,
+	Tooltip
+} from "@material-ui/core";
 import { Theme, makeStyles } from "@material-ui/core/styles";
 import {
 	Menu as MenuIcon,
 	NotificationsOutlined as NotificationsIcon,
 	Input as InputIcon
 } from "@material-ui/icons";
+import CustomSwitch from "@components/CustomSwitch";
+import useThemeSelector from "@selectors/themeSelectors";
 
 const useStyles = makeStyles((theme: Theme) => ({
 	root: {
@@ -30,6 +39,7 @@ const Topbar = ({ className, onSidebarOpen, ...rest }: TopbarProps) => {
 	const classes = useStyles();
 
 	const [notifications] = useState([]);
+	const { darkMode, changeTheme } = useThemeSelector();
 
 	return (
 		<AppBar {...rest} className={clsx(classes.root, className)}>
@@ -54,6 +64,12 @@ const Topbar = ({ className, onSidebarOpen, ...rest }: TopbarProps) => {
 					>
 						<InputIcon />
 					</IconButton>
+					<Tooltip title="Dark Mode">
+						<CustomSwitch
+							checked={darkMode}
+							onChange={() => changeTheme(!darkMode)}
+						/>
+					</Tooltip>
 				</Hidden>
 				<Hidden lgUp>
 					<IconButton color="inherit" onClick={onSidebarOpen}>
