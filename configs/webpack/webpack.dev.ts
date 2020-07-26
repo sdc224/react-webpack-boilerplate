@@ -17,6 +17,8 @@ const config: webpack.Configuration = webpackMerge(baseConfig, {
 	devtool: "#inline-source-map",
 	devServer: {
 		port: 5000,
+		historyApiFallback: true,
+		publicPath: "/",
 		contentBase: paths.build,
 		compress: true,
 		open: true
