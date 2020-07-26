@@ -44,6 +44,11 @@ const Topbar = ({ className, onSidebarOpen, ...rest }: TopbarProps) => {
 	return (
 		<AppBar {...rest} className={clsx(classes.root, className)}>
 			<Toolbar>
+				<Hidden lgUp>
+					<IconButton color="inherit" onClick={onSidebarOpen}>
+						<MenuIcon />
+					</IconButton>
+				</Hidden>
 				<RouterLink to="/">
 					<img alt="Logo" src="/images/logos/logo--white.svg" />
 				</RouterLink>
@@ -70,11 +75,6 @@ const Topbar = ({ className, onSidebarOpen, ...rest }: TopbarProps) => {
 							onChange={() => changeTheme(!darkMode)}
 						/>
 					</Tooltip>
-				</Hidden>
-				<Hidden lgUp>
-					<IconButton color="inherit" onClick={onSidebarOpen}>
-						<MenuIcon />
-					</IconButton>
 				</Hidden>
 			</Toolbar>
 		</AppBar>

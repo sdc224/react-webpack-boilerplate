@@ -5,7 +5,6 @@ import { ConnectedRouter } from "connected-react-router";
 // import { hot } from "react-hot-loader/root";
 import { History } from "history";
 import Loading from "@components/Loading";
-import { CssBaseline } from "@material-ui/core";
 import ThemeWrapper from "./ThemeWrapper";
 // import { ConfirmationServiceProvider } from "./ConfirmationService";
 
@@ -19,7 +18,6 @@ interface RootProps<T> {
 const Root = <T extends unknown>({ store, history }: RootProps<T>) => (
 	<Provider store={store}>
 		<ConnectedRouter history={history}>
-			<CssBaseline />
 			<ThemeWrapper>
 				{/* <ConfirmationServiceProvider> */}
 				<React.Suspense fallback={<Loading />}>
