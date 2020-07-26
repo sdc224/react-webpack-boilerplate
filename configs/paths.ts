@@ -26,6 +26,7 @@ const paths = {
 	utils: resolveApp("src/utils"),
 	actions: resolveApp("src/actions"),
 	reducers: resolveApp("src/reducers"),
+	selectors: resolveApp("src/selectors"),
 	sagas: resolveApp("src/sagas"),
 	store: resolveApp("src/store"),
 	reduxTypes: resolveApp("src/reduxTypes")

@@ -18,6 +18,7 @@ const config: webpack.Configuration = {
 			"@utils": paths.utils,
 			"@actions": paths.actions,
 			"@reducers": paths.reducers,
+			"@selectors": paths.selectors,
 			"@sagas": paths.sagas,
 			"@store": paths.store,
 			"@reduxTypes": paths.reduxTypes

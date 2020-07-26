@@ -15,6 +15,7 @@
 			"@routes/*": ["./src/routes/*", "./src/routes/"],
 			"@actions/*": ["./src/actions/*", "./src/actions/"],
 			"@reducers/*": ["./src/reducers/*", "./src/reducers/"],
+			"@selectors/*": ["./src/selectors/*", "./src/selectors/"],
 			"@sagas/*": ["./src/sagas/*", "./src/sagas/"],
 			"@store/*": ["./src/store/*", "./src/store/"],
 			"@reduxTypes/*": ["./src/reduxTypes/*", "./src/reduxTypes/"],
