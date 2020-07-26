@@ -16,6 +16,9 @@ const useStyles = makeStyles((theme: Theme) => ({
 		height: 60
 	},
 	name: {
+		// Bug for IE 11
+		// See: https://stackoverflow.com/questions/35111090/text-in-a-flex-container-doesnt-wrap-in-ie11
+		width: "100%",
 		marginTop: theme.spacing(1)
 	}
 }));
