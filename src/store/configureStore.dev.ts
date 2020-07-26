@@ -36,9 +36,7 @@ const configureStore = (
 	// Logging Middleware
 	const logger = createLogger({
 		level: "info",
-		collapsed: true,
-		// Removing progress from logger
-		predicate: (_getState, action) => !action.type.includes("@@progress")
+		collapsed: true
 	});
 
 	// Skip redux logs in console during the tests
