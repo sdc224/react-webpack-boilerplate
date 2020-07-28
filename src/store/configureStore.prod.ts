@@ -1,12 +1,11 @@
 import { createStore, applyMiddleware, Store } from "redux";
-import { createBrowserHistory } from "history";
 import { routerMiddleware } from "connected-react-router";
-import sagaMiddleware from "./middlewares/sagas";
 import createRootReducer from "@reducers/";
 import rootSaga from "@sagas/";
+import history from "@history/";
 import ApplicationState from "@reduxTypes/";
+import sagaMiddleware from "./middlewares/sagas";
 
-const history = createBrowserHistory();
 const rootReducer = createRootReducer(history);
 const router = routerMiddleware(history);
 const enhancer = applyMiddleware(sagaMiddleware, router);

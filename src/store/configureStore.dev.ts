@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { applyMiddleware, createStore, Store, compose } from "redux";
-import { createBrowserHistory } from "history";
 import { routerMiddleware, routerActions } from "connected-react-router";
 import { createLogger } from "redux-logger";
 import createRootReducer from "@reducers/";
 import rootSaga from "@sagas/";
 import ApplicationState from "@reduxTypes/";
+import history from "@history/";
 import sagaMiddleware from "./middlewares/sagas";
 
 declare global {
@@ -21,7 +21,6 @@ declare global {
 	}
 }
 
-const history = createBrowserHistory();
 const rootReducer = createRootReducer(history);
 
 const configureStore = (
