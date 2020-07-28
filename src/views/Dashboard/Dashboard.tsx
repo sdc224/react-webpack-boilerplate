@@ -1,5 +1,6 @@
 import React from "react";
+import { Typography } from "@material-ui/core";
 
 export default function Dashboard() {
-	return <div>Dashboard</div>;
+	return <Typography>Dashboard</Typography>;
 }

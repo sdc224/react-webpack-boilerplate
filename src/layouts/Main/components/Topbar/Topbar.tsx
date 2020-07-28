@@ -13,7 +13,8 @@ import { Theme, makeStyles } from "@material-ui/core/styles";
 import {
 	Menu as MenuIcon,
 	NotificationsOutlined as NotificationsIcon,
-	Input as InputIcon
+	Input as InputIcon,
+	GitHub as GitHubIcon
 } from "@material-ui/icons";
 import CustomSwitch from "@components/CustomSwitch";
 import useThemeSelector from "@selectors/themeSelectors";
@@ -50,7 +51,8 @@ const Topbar = ({ className, onSidebarOpen, ...rest }: TopbarProps) => {
 					</IconButton>
 				</Hidden>
 				<RouterLink to="/">
-					<img alt="Logo" src="/images/logos/logo--white.svg" />
+					{/* <img alt="Logo" src="/logo.svg" /> */}
+					<GitHubIcon />
 				</RouterLink>
 				<div className={classes.flexGrow} />
 				<Hidden mdDown>

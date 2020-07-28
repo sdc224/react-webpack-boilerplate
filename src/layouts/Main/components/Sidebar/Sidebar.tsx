@@ -18,9 +18,6 @@ const useStyles = makeStyles((theme: Theme) => ({
 		}
 	},
 	root: {
-		// TODO : Below line after theme
-		// backgroundColor: theme.palette.white,
-		backgroundColor: theme.palette.grey[100],
 		display: "flex",
 		flexDirection: "column",
 		height: "100%",

@@ -5,5 +5,5 @@ export default function* rootSaga(): Generator<
 	void,
 	unknown
 > {
-	console.log("Hello");
+	// console.log("Hello");
 }
