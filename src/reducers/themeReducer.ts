@@ -1,7 +1,7 @@
 import { PayloadAction } from "typesafe-actions";
 import { ThemeActionTypes, ThemeState } from "../reduxTypes/themeTypes";
 
-const initialState: ThemeState = {
+export const initialState: ThemeState = {
 	darkMode: false
 };
 

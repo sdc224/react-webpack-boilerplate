@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ThemeWrapper /> matches snapshot 1`] = `
+<body>
+  <div>
+    <p>
+      Mock Component
+    </p>
+  </div>
+</body>
+`;
