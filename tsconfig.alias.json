@@ -19,7 +19,8 @@
 			"@sagas/*": ["./src/sagas/*", "./src/sagas/"],
 			"@store/*": ["./src/store/*", "./src/store/"],
 			"@reduxTypes/*": ["./src/reduxTypes/*", "./src/reduxTypes/"],
-			"@utils/*": ["./src/utils/*", "./src/utils/"]
+			"@utils/*": ["./src/utils/*", "./src/utils/"],
+			"@history/*": ["./src/history/*", "./src/history/"]
 		}
 	}
 }

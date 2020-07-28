@@ -21,7 +21,8 @@ const config: webpack.Configuration = {
 			"@selectors": paths.selectors,
 			"@sagas": paths.sagas,
 			"@store": paths.store,
-			"@reduxTypes": paths.reduxTypes
+			"@reduxTypes": paths.reduxTypes,
+			"@history": paths.history
 		}
 	}
 };

@@ -29,7 +29,8 @@ const paths = {
 	selectors: resolveApp("src/selectors"),
 	sagas: resolveApp("src/sagas"),
 	store: resolveApp("src/store"),
-	reduxTypes: resolveApp("src/reduxTypes")
+	reduxTypes: resolveApp("src/reduxTypes"),
+	history: resolveApp("src/history")
 };
 
 export default paths;

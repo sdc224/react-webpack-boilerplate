@@ -21,6 +21,7 @@ module.exports = {
 		"^@sagas(.*)$": "<rootDir>/src/sagas$1",
 		"^@store(.*)$": "<rootDir>/src/store$1",
 		"^@reduxTypes(.*)$": "<rootDir>/src/reduxTypes$1",
-		"^@utils(.*)$": "<rootDir>/src/utils$1"
+		"^@utils(.*)$": "<rootDir>/src/utils$1",
+		"^@history(.*)$": "<rootDir>/src/history$1"
 	}
 };
