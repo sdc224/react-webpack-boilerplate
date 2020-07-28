@@ -1,12 +1,15 @@
 import React from "react";
 import { render, RenderResult } from "@testing-library/react";
-import App from "../src/App";
+import Root from "@containers/Root";
+import { configureStore, history } from "@store/configureStore";
+
+const store = configureStore();
 
 let documentBody: RenderResult;
 
-describe("<App />", () => {
+describe("<Root />", () => {
 	beforeEach(() => {
-		documentBody = render(<App />);
+		documentBody = render(<Root store={store} history={history} />);
 	});
 	it("matches snapshot", () => {
 		const { baseElement } = documentBody;

@@ -27,7 +27,8 @@
 		"acceptance-tests",
 		"webpack",
 		"jest",
-		"internals"
+		"internals",
+		"__test__"
 	],
 	"include": ["./src/**/*", "@types"]
 }

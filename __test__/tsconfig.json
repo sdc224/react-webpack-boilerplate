@@ -1,0 +1,7 @@
+{
+	"extends": "../tsconfig.alias.json",
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"jsx": "react"
+	}
+}
