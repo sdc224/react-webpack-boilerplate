@@ -1,5 +1,5 @@
 import React from "react";
-import { render, RenderResult } from "@testing-library/react";
+import { render, RenderResult, waitFor } from "@testing-library/react";
 import Root from "@containers/Root";
 import { configureStore, history } from "@store/configureStore";
 
@@ -13,6 +13,10 @@ describe("<Root />", () => {
 	});
 	it("matches snapshot", () => {
 		const { baseElement } = documentBody;
+		expect(baseElement).toMatchSnapshot();
+	});
+	it("matches the lazy snapshot", async () => {
+		const { baseElement } = await waitFor(() => documentBody);
 		expect(baseElement).toMatchSnapshot();
 	});
 });

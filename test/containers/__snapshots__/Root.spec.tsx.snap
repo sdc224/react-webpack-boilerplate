@@ -17,3 +17,188 @@ exports[`<Root /> matches snapshot 1`] = `
   </div>
 </body>
 `;
+
+exports[`<Root /> matches the lazy snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="makeStyles-root-1 makeStyles-shiftContent-2"
+    >
+      <header
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-root-4 mui-fixed MuiPaper-elevation4"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+        >
+          <a
+            href="/"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"
+              />
+            </svg>
+          </a>
+          <div
+            class="makeStyles-flexGrow-5"
+          />
+        </div>
+      </header>
+      <div
+        class="MuiDrawer-root MuiDrawer-docked"
+      >
+        <div
+          class="MuiPaper-root MuiDrawer-paper makeStyles-drawer-7 MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft MuiPaper-elevation0"
+        >
+          <div
+            class="makeStyles-root-8"
+          >
+            <div
+              class="makeStyles-root-11"
+            >
+              <a
+                class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-12 MuiAvatar-colorDefault"
+                href="/settings"
+              >
+                S
+              </a>
+              <h4
+                class="MuiTypography-root makeStyles-name-13 MuiTypography-h4"
+              >
+                Sourodeep Chatterjee
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                Developer
+              </p>
+            </div>
+            <hr
+              class="MuiDivider-root makeStyles-divider-9"
+            />
+            <ul
+              class="MuiList-root makeStyles-root-14 makeStyles-nav-10 MuiList-padding"
+            >
+              <li
+                class="MuiListItem-root makeStyles-item-15"
+              >
+                <div
+                  style="flex-grow: 1;"
+                >
+                  <a
+                    aria-current="page"
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-16 makeStyles-active-18"
+                    href="/dashboard"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <div
+                        class="makeStyles-icon-17"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+                          />
+                        </svg>
+                      </div>
+                      Dashboard
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </li>
+              <li
+                class="MuiListItem-root makeStyles-item-15"
+              >
+                <div
+                  style="flex-grow: 1;"
+                >
+                  <a
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-16"
+                    href="/settings"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      <div
+                        class="makeStyles-icon-17"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+                            transform="scale(1.2, 1.2)"
+                          />
+                        </svg>
+                      </div>
+                      Settings
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <main
+        class="makeStyles-content-3"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Dashboard
+        </p>
+        <div
+          class="makeStyles-root-19"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            ©
+             
+            <a
+              class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+              href="https://github.com/sdc224/"
+              target="_blank"
+            >
+              SDCWorld
+            </a>
+            . 2020
+          </p>
+          <span
+            class="MuiTypography-root MuiTypography-caption"
+          >
+            Created with ❤ for the environment.
+          </span>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+`;
