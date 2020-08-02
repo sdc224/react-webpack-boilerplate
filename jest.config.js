@@ -2,7 +2,7 @@ module.exports = {
 	preset: "ts-jest",
 	testEnvironment: "jsdom",
 	moduleDirectories: ["node_modules", "bower_components", "shared"],
-	setupFilesAfterEnv: ["<rootDir>/__test__/config/importJestDOM.ts"],
+	setupFilesAfterEnv: ["<rootDir>/test/config/importJestDOM.ts"],
 	moduleNameMapper: {
 		"^@app(.*)$": "<rootDir>$1",
 		"^@src(.*)$": "<rootDir>/src$1",
