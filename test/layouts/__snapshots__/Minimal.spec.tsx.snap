@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Minimal /> matches snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="makeStyles-root-4"
+    >
+      <header
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-root-6 mui-fixed MuiPaper-elevation4"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="Logo"
+              src="/images/logos/logo--white.svg"
+            />
+          </a>
+        </div>
+      </header>
+      <main
+        class="makeStyles-content-5"
+      >
+        <p>
+          Mock Component
+        </p>
+      </main>
+    </div>
+  </div>
+</body>
+`;
