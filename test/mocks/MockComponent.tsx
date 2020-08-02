@@ -1,7 +1,16 @@
 import React from "react";
 
-const MockComponent = () => {
-	return <p>Mock Component</p>;
+interface MockComponentProps {
+	children?: React.ReactNode;
+}
+
+const MockComponent = ({ children }: MockComponentProps) => {
+	return (
+		<>
+			{children}
+			<p>Mock Component</p>
+		</>
+	);
 };
 
 export default MockComponent;
