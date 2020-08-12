@@ -70,7 +70,7 @@
 		"eslint-plugin-react": "7.20.5",
 		"fork-ts-checker-webpack-plugin": "5.0.14",
 		"html-webpack-plugin": "4.3.0",
-		"jest": "26.2.2",
+		"jest": "26.4.0",
 		"prettier": "2.0.5",
 		"redux-logger": "3.0.6",
 		"rimraf": "3.0.2",
