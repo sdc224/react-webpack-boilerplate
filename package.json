@@ -71,7 +71,7 @@
 		"fork-ts-checker-webpack-plugin": "5.2.1",
 		"html-webpack-plugin": "4.5.0",
 		"jest": "26.4.2",
-		"prettier": "2.1.2",
+		"prettier": "2.3.0",
 		"redux-logger": "3.0.6",
 		"rimraf": "3.0.2",
 		"style-loader": "1.2.1",
