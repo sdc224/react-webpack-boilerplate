@@ -28,7 +28,7 @@ const config: webpack.Configuration = webpackMerge(aliasConfig, {
 				use: [
 					{
 						loader: "babel-loader",
-						query: {
+						options: {
 							cacheDirectory: true
 						}
 					},
@@ -43,7 +43,7 @@ const config: webpack.Configuration = webpackMerge(aliasConfig, {
 			},
 			{
 				test: /\.css$/,
-				loader: ["style-loader", "css-loader"]
+				use: ["style-loader", "css-loader"]
 			}
 		]
 	},
