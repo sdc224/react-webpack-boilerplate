@@ -55,7 +55,7 @@
 		"@types/testing-library__jest-dom": "5.14.1",
 		"@types/webpack": "5.28.0",
 		"@types/webpack-bundle-analyzer": "4.4.0",
-		"@types/webpack-dev-server": "3.11.4",
+		"@types/webpack-dev-server": "3.11.6",
 		"@typescript-eslint/eslint-plugin": "4.29.3",
 		"@typescript-eslint/parser": "4.29.3",
 		"babel-loader": "8.2.2",
