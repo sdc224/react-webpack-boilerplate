@@ -19,7 +19,16 @@ const config: webpack.Configuration = webpackMerge(aliasConfig, {
 	},
 	resolve: {
 		// Don't remove options like js, cjs, mjs, as they are necessary for webpack-dev-server
-		extensions: [".wasm", ".ts", ".tsx", ".mjs", ".cjs", ".js", ".json"]
+		extensions: [
+			".wasm",
+			".mjs",
+			".cjs",
+			".js",
+			".jsx",
+			".json",
+			".ts",
+			".tsx"
+		]
 	},
 	module: {
 		rules: [
@@ -40,6 +49,12 @@ const config: webpack.Configuration = webpackMerge(aliasConfig, {
 					}
 				],
 				exclude: paths.nodeModules
+			},
+			{
+				test: /\.m?js/,
+				resolve: {
+					fullySpecified: false
+				}
 			},
 			{
 				test: /\.css$/,
