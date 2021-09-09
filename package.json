@@ -74,7 +74,7 @@
 		"redux-logger": "3.0.6",
 		"rimraf": "3.0.2",
 		"style-loader": "3.2.1",
-		"terser-webpack-plugin": "5.2.3",
+		"terser-webpack-plugin": "5.2.4",
 		"ts-jest": "27.0.5",
 		"ts-loader": "9.2.5",
 		"ts-node": "10.2.1",
