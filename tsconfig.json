@@ -14,7 +14,7 @@
 		"allowSyntheticDefaultImports": true,
 		"keyofStringsOnly": true,
 		"esModuleInterop": true,
-		"importsNotUsedAsValues": "preserve",
+		"importsNotUsedAsValues": "remove",
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"typeRoots": ["node_modules/@types", "src/@types"]
