@@ -21,7 +21,7 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"@babel/runtime": "7.16.0",
+		"@babel/runtime": "7.16.3",
 		"@material-ui/core": "4.12.3",
 		"@material-ui/icons": "4.11.2",
 		"connected-react-router": "6.9.1",
@@ -36,9 +36,9 @@
 	"devDependencies": {
 		"@babel/core": "7.16.0",
 		"@babel/plugin-proposal-class-properties": "7.16.0",
-		"@babel/plugin-proposal-decorators": "7.16.0",
-		"@babel/plugin-transform-runtime": "7.16.0",
-		"@babel/preset-env": "7.16.0",
+		"@babel/plugin-proposal-decorators": "7.16.4",
+		"@babel/plugin-transform-runtime": "7.16.4",
+		"@babel/preset-env": "7.16.4",
 		"@babel/preset-typescript": "7.16.0",
 		"@testing-library/jest-dom": "5.15.0",
 		"@testing-library/react": "12.1.2",
